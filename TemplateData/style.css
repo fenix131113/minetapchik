@@ -45,10 +45,13 @@ body {
     text-align: center;
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
 }
-#version-label{
+#version-label {
     text-align: end;
+    z-index: 1;
+    color: white;
+    margin-top: auto;
 }
 #unity-logo img {
     width: 100%;
